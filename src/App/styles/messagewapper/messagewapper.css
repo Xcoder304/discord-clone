@@ -1,4 +1,6 @@
 .messageWapper {
   flex: 0.8;
   background: var(--lightBlack-X2);
+  display: flex;
+  flex-direction: column;
 }

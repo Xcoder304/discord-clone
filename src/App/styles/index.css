@@ -16,10 +16,22 @@ body {
   --gray-x2: #3c3f45;
   --Darkgreen: #2d7d46;
   --green: #3ba55d;
+  --blue: #5865f2;
   --gray: #dcddde;
   --white: #fff;
   --fontWhite: rgba(220, 221, 221, 1);
 }
 html {
   scroll-behavior: smooth;
+}
+/* global classes */
+.df-alc {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.df-alc-fd {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
 }
