@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Sora", sans-serif;
+  /* colors */
+  --black: #202225;
+  --lightBlack: #36393f;
+  --lightBlack-X2: #2f3136;
+  --gray-x2: #3c3f45;
+  --Darkgreen: #2d7d46;
+  --green: #3ba55d;
+  --gray: #dcddde;
+  --white: #fff;
+  --fontWhite: rgba(220, 221, 221, 1);
+}
+html {
+  scroll-behavior: smooth;
+}
