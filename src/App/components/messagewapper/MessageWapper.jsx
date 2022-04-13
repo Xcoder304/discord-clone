@@ -1,10 +1,13 @@
 import React from "react";
-import "../../styles/messagewapper.css";
+import "../../styles/messagewapper/messagewapper.css";
+import Header from "./Header";
+import Messages from "./Messages";
 
 const MessageWapper = () => {
   return (
     <div className="messageWapper">
-      <h1>messgae Wapper</h1>
+      <Header />
+      <Messages />
     </div>
   );
 };
